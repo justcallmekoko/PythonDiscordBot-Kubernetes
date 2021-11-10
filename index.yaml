@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  discord-bot:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-10T16:01:02.199158059Z"
+    description: A Helm chart for Kubernetes
+    digest: 57016e1ee29fc1c500c907365bd4f8664b88d3b621dffe6346bd2db847c0500b
+    name: discord-bot
+    type: application
+    urls:
+    - https://justcallmekoko.github.io/PythonDiscordBot-Kubernetes/discord-bot-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-10T16:01:02.197003897Z"

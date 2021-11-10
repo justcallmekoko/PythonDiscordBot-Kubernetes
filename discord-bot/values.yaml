@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: "justcallmekoko/dockerpythondiscordbot"
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+discordtoken: discordtoken
+discordguild: "discordserver"
+rconip: 127.0.0.1
+rconpassword: "rconpassword"
+hostuser: "minecraftusername"

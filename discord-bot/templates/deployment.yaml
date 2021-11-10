@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-discord-bot
+  labels:
+    app: python-discord-bot
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: python-discord-bot
+  template:
+    metadata:
+      labels:
+        app: python-discord-bot
+    spec:
+      containers:
+        - name: python-discord-bot-container
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          env:
+          - name: DISCORD_TOKEN
+            value: {{ .Values.discordtoken }}
+          - name: DISCORD_GUILD
+            value: "{{ .Values.discordguild }}"
+          - name: RCON_IP
+            value: {{ .Values.rconip }}
+          - name: RCON_PASSWORD
+            value: "{{ .Values.rconpassword }}"
+          - name: HOST_USER
+            value: "{{ .Values.hostuser }}"

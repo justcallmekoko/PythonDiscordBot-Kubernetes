@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: "justcallmekoko/dockerpythondiscordbot"
+  repository: "ghcr.io/justcallmekoko/pythondiscordbot:latest"
   pullPolicy: IfNotPresent
   tag: "latest"
 

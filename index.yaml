@@ -3,12 +3,12 @@ entries:
   discord-bot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-10T16:01:02.199158059Z"
-    description: A Helm chart for Kubernetes
-    digest: 57016e1ee29fc1c500c907365bd4f8664b88d3b621dffe6346bd2db847c0500b
+    created: "2022-04-07T21:58:30.064456-04:00"
+    description: A Python Discord Bot for Kubernetes
+    digest: 0cd46c08f6ac715793489c850ffa2012e01cfd8d928c1b5c219da68a85813b44
     name: discord-bot
     type: application
     urls:
-    - https://justcallmekoko.github.io/PythonDiscordBot-Kubernetes/discord-bot-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-11-10T16:01:02.197003897Z"
+    - discord-bot-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-04-07T21:58:30.0624622-04:00"

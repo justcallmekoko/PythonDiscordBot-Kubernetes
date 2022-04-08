@@ -3,12 +3,12 @@ entries:
   discord-bot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-07T21:58:30.064456-04:00"
+    created: "2022-04-08T10:11:53.8519037-04:00"
     description: A Python Discord Bot for Kubernetes
     digest: 0cd46c08f6ac715793489c850ffa2012e01cfd8d928c1b5c219da68a85813b44
     name: discord-bot
     type: application
     urls:
-    - discord-bot-0.1.1.tgz
+    - https://justcallmekoko.github.io/PythonDiscordBot-Kubernetes/discord-bot-0.1.1.tgz
     version: 0.1.1
-generated: "2022-04-07T21:58:30.0624622-04:00"
+generated: "2022-04-08T10:11:53.8507663-04:00"
